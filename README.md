@@ -1,3 +1,13 @@
+# Presentaciones sobre el _Oráculo manual_ (1647)
+
+
+Estas presentaciones se han hecho (se están haciendo) usando html, css y javascript.  La parte técnica (el código de la presentación) utiliza el proyecto <a href="https://github.com/hakimel/reveal.js">Reveal.js </a> (consúltese allí el tipo de licencia, MIT). La parte de contenidos (texto, gráficas, exposición, etc.) así como algunas partes del formato propias llevan  <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.es_CO"> Licencia Creative Commons Atribución-CompartirIgual 3.0 Unported, </a>excepto la reproducción de algunas portadas (en cada caso llevan la correspondiente atribución a pie de foto)</p>
+
+
+Se mantiene a continuación el _readme.md_ de [hakimel/reveal.js] (https://github.com/hakimel/reveal.js) con todas las indicaciones para gestión técnica de las presentaciones. 
+
+
+
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.png?branch=master)](https://travis-ci.org/hakimel/reveal.js)
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://lab.hakim.se/reveal-js/).
