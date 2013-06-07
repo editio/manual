@@ -608,3 +608,5 @@ MIT licensed
 
 Copyright (C) 2013 Hakim El Hattab, http://hakim.se
 
+Para los contenidos de las presentaciones, José Luis Losada.
+Creative Commons Atribución-CompartirIgual 3.0 Unported
