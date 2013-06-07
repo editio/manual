@@ -1,8 +1,8 @@
 # Presentaciones sobre el _Oráculo manual_ (1647)
 
-##### José Luis Losada
-
 Estas presentaciones se han hecho (se están haciendo) usando html, css y javascript.  La parte técnica (el código de la presentación) utiliza el proyecto <a href="https://github.com/hakimel/reveal.js">Reveal.js </a> (consúltese allí el tipo de licencia, MIT). La parte de contenidos (texto, gráficas, exposición, etc.) así como algunas partes del formato son de elaboración propia y llevan  <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.es_CO"> Licencia Creative Commons Atribución-CompartirIgual 3.0 Unported, </a>excepto la reproducción de algunas portadas (en cada caso llevan la correspondiente atribución a pie de foto).
+
+##### José Luis Losada
 
 <a href="http://editio.github.io/manual/editio"><img  src="imagen/captura-om-editio.png" title="Editio"></a>
 
