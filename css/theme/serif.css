@@ -430,6 +430,9 @@ color: #8e0905;
    background-color: #eeea62; /*color del fondo; una escala de grises, puede ir también en HEX, en este caso #E0E0E0; una variación del amarillo #FFFFCC*/
 }
 
+.creditos p {
+	font-size: 0.9em;
+}
 
 
 /*********************
