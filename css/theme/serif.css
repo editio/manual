@@ -169,7 +169,7 @@ float: right;
 }
 
 
-/*Imagen y texto con pie de foto*/
+/*Imagen y texto con pie de foto izquierda y derecha*/
 
 
 div.imagen-texto {
@@ -240,6 +240,40 @@ div.caption {
 	text-align: left;
 	overflow: auto;
 }
+
+
+
+/*Imagen sola*/
+
+
+div.imagen-sola {
+	
+padding: 3px !important; 
+width: 78%;
+max-height: 700px;
+margin-left: 11%;
+
+	border: 1px solid #c6bfbf;
+	border-color: #ddd #ccc #ccc #ddd;
+	border-top-color: rgb(221, 221, 221);
+	border-right-color: rgb(204, 204, 204);
+	border-bottom-color: rgb(204, 204, 204);
+	border-left-color: rgb(221, 221, 221);
+	-moz-box-shadow: 4px 4px 12px #ccc;
+	-webkit-box-shadow: 4px 4px 12px #ccc;
+	box-shadow: 4px 4px 12px #ccc;
+		
+}
+
+div.imagen-sola img {
+		border: 1px solid #dbd6d6; 
+		width: 99%;
+
+}
+
+
+
+
 
 
 /*LISTAS NUMERADAS Y SIN NUMERAR*/
