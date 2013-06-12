@@ -272,7 +272,30 @@ div.imagen-sola img {
 }
 
 
+div.imagen-schop {
+	
+padding: 3px !important; 
+width: 42%;
+max-height: 700px;
+margin-left: 30%;
 
+	border: 1px solid #c6bfbf;
+	border-color: #ddd #ccc #ccc #ddd;
+	border-top-color: rgb(221, 221, 221);
+	border-right-color: rgb(204, 204, 204);
+	border-bottom-color: rgb(204, 204, 204);
+	border-left-color: rgb(221, 221, 221);
+	-moz-box-shadow: 4px 4px 12px #ccc;
+	-webkit-box-shadow: 4px 4px 12px #ccc;
+	box-shadow: 4px 4px 12px #ccc;
+		
+}
+
+div.imagen-schop img {
+		border: 1px solid #dbd6d6; 
+		width: 99%;
+
+}
 
 
 
@@ -385,6 +408,15 @@ color: gray;
 margin-top: 25px;
 font-size: 60%;
 }
+
+span.fuente {
+	
+text-align: right;
+color: gray;
+margin-top: 25px;
+font-size: 60%;
+}
+
 
 .fuente::before {
 
