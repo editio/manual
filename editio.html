@@ -214,7 +214,7 @@ Las "ediciones digitales" no se publican sólo en formato digital, sino que sigu
 
 		</section>
 
-</section> <!--FIN EDICIONES-->
+</section> <!--FIN EDICIONES DIGITALES-->
 
 <section>
 
@@ -275,7 +275,6 @@ Las "ediciones digitales" no se publican sólo en formato digital, sino que sigu
 
 </section> <!-- FIN Presentación ePub -->
 
-
 <section>
 			    
 <section id="marcado">
@@ -311,7 +310,6 @@ Las "ediciones digitales" no se publican sólo en formato digital, sino que sigu
 &lt;head&gt;
 &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
   	&lt;title&gt;Oráculo manual&lt;/title&gt;
-&lt;!--  	&lt;link href="estilos-OM.css" rel="stylesheet" type="text/css" /&gt;  --&gt;
 &lt;/head&gt;
 
 &lt;body&gt;
@@ -331,11 +329,6 @@ Las "ediciones digitales" no se publican sólo en formato digital, sino que sigu
 </div>
 
      </section>  <!--CODE-XHTML-->
-
-
-
-
-
 	
 	<section>
 				<div id="oraculo">
@@ -345,9 +338,7 @@ Las "ediciones digitales" no se publican sólo en formato digital, sino que sigu
 				
 				  <div class="cuerpo">
 	<p class="capital" id="capital">Ni al justo leyes, ni al sabio consejos; pero ninguno supo bastantemente para sí. Una cosa me has de perdonar y otra agradecer: el llamar Oráculo a este epítome de aciertos del vivir, pues lo es en lo sentencioso y lo conciso; el ofrecerte de un rasgo todos los doce Gracianes, tan estimado cada uno, que <i>El Discreto</i> apenas se vio en España cuando se logró en Francia, traducido en su lengua e impreso en su Corte. Sirva éste de memorial a la razón en el banquete de sus sabios, en que registre los platos prudenciales que se le irán sirviendo en las demás obras para distribuir el gusto genialmente.</p>
-	
-	
-				  </div>
+					  </div>
 				</div>		
 				
 			</section>  <!--AL LECTOR-->
@@ -373,64 +364,87 @@ propiedad:  del elemento. <i>color:</i>
 valor: de la propiedad.  <i>red;</i>
 </pre>-->
 
-
-
-
-
 </section>  <!--TEORIA-CSS-->
  
 <section id="code-css">
 	<h2>Hoja de estilo</h2>
 			            <pre><code>        
-div.portada { 
-color:#000; font-family:Georgia, serif;
-max-width:12em; margin: 
-auto;font-weight:bold; font-variant:small-caps;
-}
-			            
 div.encabezado {
-font-family:Georgia, serif; text-align:center ; 
-color:#ff0000; border-bottom:1px dotted #ff0000;
-margin:0 0 1em 0;
-}  /* ADE no muestra lineas dotted */
-			            
-div.apartado { 
-font-size:1em; font-weight:bold; font-variant:small-caps; 
-margin:0 0 1em 0!important;
+
+	font-family:Georgia, serif; text-align:center; color:#913005; 
+	border-bottom: 1px dotted #913005; margin-bottom: 1em; 
+	font-size: 70%;
 }  
-			            </code></pre>
+			            
+p.capital:first-letter { 
+
+	float:left; 
+	margin:0 3px 0 0; 
+	font-size:3.2em;  
+	font-family: Georgia, serif;
+	line-height:0.6em;  
+	color:#913005; 
+	text-indent:0em;
+}  	/*Se pueden añadir notas para facilitar la lectura del código*/
+
+div.aforismo {
+
+	margin-top: 0.3ex; margin-bottom: 0em;
+	width: 75%;
+}
+
+span.marginalia {
+
+    display: block; width: 22%; float: right; clear: right;
+    margin-bottom: 0.5ex; margin-top: 0.5ex; padding-left: 1em;
+    font-size: 50%;  font-style: normal; font-weight: normal;
+    text-align: center; text-indent: 0;
+}
+
+.marginalia img { width: 100%;}
+
+.maxima {font-style: italic;}
+
+
+</code></pre>
 			            
 			            
 	</section>  <!--CODE-CSS-->
 
 <section id="code-basic">
 			        
-<h2>(x)html: estructura básica</h2>			        
+<h2>(x)html con hoja de estilo</h2>			        
 
-		<pre><code>
-&lt;html&gt; * principio del documento (x)html, xml 
-			        
-&lt;head&gt; * espacio para la información interna, p. ej., el formato
-
-*indirecto:  &lt;link rel="stylesheet" href="estilos.css" type="text/css"/&gt;
-*directo: &lt;style type="text/css"&gt; div { text-align:left;}   &lt;/style&gt;
-
-*Meta datos: 	&lt;meta name="language" content="Spanish" /&gt;
-		&lt;meta name="author" content="Baltasar Gracián"/&gt;
-	&lt;/head&gt;			 
-			        
-&lt;body&gt; * espacio de la parte visible del documento.
-
-	&lt;h1&gt; * epígrafe &lt;/h1&gt;  
-			        
-		&lt;div&gt; * bloque  &lt;/div&gt;
-			        
-			&lt;p&gt; * párrafo &lt;/p&gt;
+		<pre><code>		
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "xhtml11.dtd"&gt;
 		
-	&lt;/body&gt; * Cierre de la parte visible del documento. 
-			        			        
-	&lt;/html&gt; * Cierre del documento (x)html 
-		</code></pre>	        			        
+&lt;html&gt;  &lt;!-- principio del documento html --&gt;
+		
+&lt;head&gt;  &lt;!-- espacio para la información interna, p. ej., el formato --&gt;
+
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;Oráculo manual&lt;/title&gt;
+&lt;link href="estilos-OM.css" rel="stylesheet" type="text/css" /&gt;  &lt;!-- enlace a la hoja de estilos  --&gt;
+		
+&lt;/head&gt;  &lt;!-- fin del espacio para la información interna --&gt;
+		
+&lt;body&gt;   &lt;!-- espacio de la parte visible del documento. --&gt;
+		
+&lt;div class="encabezado"&gt; Oráculo manual y arte de prudencia &lt;/div&gt;
+				
+&lt;p&gt;&lt;span class="marginalia"&gt;&lt;img src="imagen/Lector-Amberes-OC.jpg"/&gt;&lt;i&gt;OC&lt;/i&gt;, Amberes (1669)&lt;/span&gt;&lt;/p&gt;
+
+&lt;div class="aforismo"&gt;
+    &lt;p&gt;1. &lt;span class="maxima"&gt;Todo está ya en su punto, y el ser persona en el mayor&lt;/span&gt;. Más se requiere hoy para un sabio que antiguamente para siete; y más es menester para tratar con un solo hombre en estos tiempos que con todo un pueblo en los pasados.&lt;/p&gt;
+&lt;/div&gt;
+					
+&lt;div class="aforismo"&gt;
+    &lt;p&gt;2. &lt;span class="maxima"&gt;Genio y ingenio&lt;/span&gt;. Los dos ejes del lucimiento de prendas. El uno sin el otro, felicidad a medias. No basta lo entendido, deséase lo genial: infelicidad de necio, errar la vocación en el estado, empleo, región, familiaridad.&lt;/p&gt;
+&lt;/div&gt;
+		
+&lt;/body&gt; &lt;!-- Cierre de la parte visible del documento. --&gt;
+&lt;/html&gt; &lt;!-- Cierre del documento html --&gt;
+</code></pre>	        			        
 			        
 	</section>  <!--CODE-BASIC-->
 
@@ -441,13 +455,13 @@ margin:0 0 1em 0!important;
 			    Oráculo manual y arte de prudencia
 			  </div>
 		
-			  <p><span class="marginalia"><img src="imagen/Lector-Amsterdam-OC.jpg"/>Amberes (1669)</span></p>
+			  <p><span class="marginalia"><img src="imagen/Lector-Amberes-OC.jpg"/><i>OC</i>, Amberes (1669)</span></p>
 			<div class="aforismo">
-			    <p>1. <i>Todo está ya en su punto, y el ser persona en el mayor</i>. Más se requiere hoy para un sabio que antiguamente para siete; y más es menester para tratar con un solo hombre en estos tiempos que con todo un pueblo en los pasados.</p>
+			    <p>1. <span class="maxima">Todo está ya en su punto, y el ser persona en el mayor</span>. Más se requiere hoy para un sabio que antiguamente para siete; y más es menester para tratar con un solo hombre en estos tiempos que con todo un pueblo en los pasados.</p>
 			</div>
 			
 			<div class="aforismo">
-			    <p>2. <i>Genio y ingenio</i>. Los dos ejes del lucimiento de prendas. El uno sin el otro, felicidad a medias. No basta lo entendido, deséase lo genial: infelicidad de necio, errar la vocación en el estado, empleo, región, familiaridad.<br /></p>
+			    <p>2. <span class="maxima">Genio y ingenio</span>. Los dos ejes del lucimiento de prendas. El uno sin el otro, felicidad a medias. No basta lo entendido, deséase lo genial: infelicidad de necio, errar la vocación en el estado, empleo, región, familiaridad.<br /></p>
 			</div>
 		
 	</div>
@@ -455,7 +469,6 @@ margin:0 0 1em 0!important;
 
 			        
 </section> <!--SECCIONES DE CSS TEORIA Y CODE-->
-
 
 <section>
 
@@ -487,7 +500,6 @@ B. Gracián,<i> Obras Completas</i>, Amberes, 1669. <a href="http://www.bu.uni.w
 
 </section> <!--ORACULO EN BLOQUES-CAJAS-->
 				
-
 <section>
 			    <section id="editores">
 			        <h2>Editores de ePub (DTP)</h2>
@@ -529,12 +541,9 @@ B. Gracián,<i> Obras Completas</i>, Amberes, 1669. <a href="http://www.bu.uni.w
 	       		<li>gratuito</li>
 	       		
 	       	    </ul>			       	   
-			    
-
-			       				       		    		        	        		       
+			    			       				       		    		        	        		       
 			    </section> 
-			    
-			    
+			    		    
 			    
 			    <section>
 			    					<h2>Lectores en el ordenador</h2>
@@ -559,28 +568,22 @@ B. Gracián,<i> Obras Completas</i>, Amberes, 1669. <a href="http://www.bu.uni.w
 <i>Sigil User Guide (0.7.2)</i>: <a href="http://web.sigil.googlecode.com/git/files/OEBPS/Text/introduction.html">web</a> - <a href="https://code.google.com/p/sigil/downloads/detail?name=Sigil_User_Guide_0_7_2.epub&can=2&q=">ePub</a>
 </div>
 
-</section>
+</section>  <!--TRABAJAR CON SIGIL-->
     
-<section data-state="marcador-rojo-last" id="impressum">
+<section id="impressum">
 
-<!-- data-state="soothe" y otras está en reveal.min.css. Esta la he puesto yo. Sirve para aplicar cambios a solo una diapositiva, por ejemplo el fondo. Algo tiene que ver con css, html5 y Javascript
-
--->	   
-	   		    <h2>créditos</h2>
+<h2>créditos</h2>
 <div class="creditos">	    		    
-		   
-
-		    <p>Presentación realizada con html, css y javascript (proyecto <a href="https://github.com/hakimel/reveal.js">reveal.js</a>) y alojada en <a href="http://editio.github.io/manual/">editio.github.io/manual</a></p>
+	 <p>Presentación realizada con html, css y javascript (proyecto <a href="https://github.com/hakimel/reveal.js">reveal.js</a>) y alojada en <a href="http://editio.github.io/manual/">editio.github.io/manual</a></p>
 			</br>
-			
-
-
-<p><a href="http://www.ifr.uni.wroc.pl/pl/nasz-instytut/pracownicy/73-dr-losada-palenzuela-jose-luis.html">José Luis Losada Palenzuela</a></p> <p>Universidad de Wrocław (Polonia) - 2013</p></div>
-			<h2 id="filete">❧</h2>
-		    
+	<p><a href="http://www.ifr.uni.wroc.pl/pl/nasz-instytut/pracownicy/73-dr-losada-palenzuela-jose-luis.html">José Luis Losada Palenzuela</a></p> <p>Universidad de Wrocław (Polonia) - 2013</p>
 	
-	
+</div>
+	<h2 id="filete">❧</h2>
+   	
 </section> <!--CRÉDITOS 7-->
+
+
 
 </div>  <!--cierre de SLIDES-->
 			    

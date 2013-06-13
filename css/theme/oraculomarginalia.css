@@ -28,32 +28,24 @@ width: 70%;  lo he puesto yo para el oráculo
  */
 
 margin-top: 0.3ex; margin-bottom: 0em;
-	
 width: 75%;
-
-
 }
 
 span.marginalia {
 
     display: block; width: 22%; float: right; clear: right;
-
     margin-bottom: 0.5ex; margin-top: 0.5ex; padding-left: 1em;
-
     font-size: 50%;  font-style: normal; font-weight: normal;
-
     text-align: center; text-indent: 0;
 }
 
 .marginalia img {
 	width: 100%;     /*el % para ajustarlo al tamaño del span*/ 
-		
-	
+
 }
 
-.maxima {   /*para hacer un 'indice de maximas darles un "class". Se aprovecha y se le pone cursiva*/ 
+span.maxima {   /*para hacer un 'indice de maximas darles un "class". Se aprovecha y se le pone cursiva*/ 
 
-	
 font-style: italic;  
 
 }
@@ -61,25 +53,19 @@ font-style: italic;
 div.encabezado {
 
 font-family:Georgia, serif; 
-
 text-align:center ;
-
 color:#913005; 
-
 border-bottom:1px dotted #913005; /* ADE no muestra lineas dotted */
-
-margin:0 0 1em 1ex; 
-
+margin-bottom: 1em; 
 font-size: 70%;
-
-
 }  
 
 
 div.apartado { 
 
-font-size:1em; font-weight:bold; font-variant:small-caps; 
-
+font-size:1em; 
+font-weight:bold; 
+font-variant:small-caps; 
 margin:0 0 1em 0;} /* ADE no muestra small-caps */
 
 
@@ -91,7 +77,7 @@ font-family: Georgia, serif;
 line-height:0.6em;  
 color:#913005; 
 text-indent:0em;
-}  /*de esta manera se ve bien en Firefox,Safari&Chrome*/
+}  /*Válido para Firefox, Safari & Chrome*/
 
 
 #capital {
