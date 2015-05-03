@@ -357,18 +357,19 @@ ul.menu_num ul li {
 div.izquierda {
 
 float: left;
-margin-left: 30px;
+
 }
 
 div.izquierda ul ul, .derecha ul ul {
 	list-style-type:circle;
-	font-size: 60%;
+	font-size: 50%;
 }
 
 div.derecha {
 
 	float: right;
-	margin-right: 30px;
+
+	
 }
 
 
