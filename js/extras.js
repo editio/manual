@@ -8,6 +8,7 @@
 				center: true,
 				loop: true,
 				rollingLinks: false,
+				slideNumber: true,
 
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
