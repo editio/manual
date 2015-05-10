@@ -319,6 +319,12 @@ ul.menu_num ul li {
 }
 
 
+ul.menu_none {
+
+	list-style-type: none;
+
+	}
+
 /*FOOTER*/
 
 
