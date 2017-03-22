@@ -1,0 +1,137 @@
+/* CSS stylesheet for an example of modelling */
+/* José Luis Losada  */
+
+body{
+    width:75%;
+    margin:0 auto;
+    padding-bottom:45px;
+}
+
+h2{
+
+    text-align:center;
+    font-variant:small-caps;
+}
+
+
+h3{
+    text-align:center;
+
+}
+
+p{
+    margin:2px auto;
+}
+
+.titulo{
+    font-size:1.5em;
+}
+
+div.discreto{
+
+    border:4px solid #333;
+    padding:10px;
+    text-align:center;
+    -webkit-border-radius:1em;
+    border-radius:1em;
+    background-color:silver;
+
+}
+
+
+.metadata{
+    border:1px dashed #333;
+    padding:5px;
+    text-align:center;
+    margin-bottom:10px;
+    background-color:white;
+}
+
+
+.frontispicio{
+
+    border:1px solid #333;
+    padding:5px;
+    text-align:center;
+    margin-bottom:10px;
+    -webkit-border-radius:1em;
+    border-radius:1em;
+    background-color:white;
+}
+
+p.metadata,
+span.metadata{
+
+    border:1px dashed #333;
+    -webkit-border-radius:1em;
+    border-radius:1em;
+    background-color:white;
+    margin-right:3px;
+    padding:2px;
+}
+
+.paratextos {
+
+    border:1px solid #333;
+    padding:5px;
+    text-align:center;
+    margin-bottom:10px;
+    -webkit-border-radius:1em;
+    border-radius:1em;
+    background-color:#e9e7e7;
+    width:90%;
+    margin:auto;
+}
+
+.aprobacion,
+.lector,
+.prologo,
+.portada2{
+
+    border:1px solid #333;
+    padding:5px;
+    text-align:center;
+    margin-bottom:5px;
+    margin-top:5px;
+    -webkit-border-radius:1em;
+    border-radius:1em;
+    background-color:white;
+}
+
+
+
+.realces{
+
+    border:1px solid #333;
+    padding:5px;
+    text-align:center;
+    margin-bottom:10px;
+    -webkit-border-radius:1em;
+    border-radius:1em;
+    background-color:#96b25e;
+}
+
+
+.realce {
+
+    border:1px solid #333;
+    padding:5px;
+    text-align:justify;
+    margin-bottom:5px;
+    -webkit-border-radius:1em;
+    border-radius:1em;
+    background-color:white;
+
+}
+
+
+.sub {
+
+    border:1px solid #333;
+    -webkit-border-radius:1em;
+    border-radius:1em;
+    background-color:white;
+    margin-right:3px;
+    padding:2px;
+    text-align:right;
+}
